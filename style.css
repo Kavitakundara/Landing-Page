@@ -208,7 +208,7 @@ img.card-img-top {
 }   
 .card-title {
     margin-bottom: 0.5rem;
-    font-size: 16px;
+    font-size: 26px;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -216,25 +216,25 @@ img.card-img-top {
     color: grey;
     margin-bottom: 0;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 24px;
     margin-top: 20px;
 }
-@media(max-width:375px){
+@media(max-width:768px){
     .head nav {
         top: 76px;
         position: fixed;
-        width: 82%;
+        width: 76%;
         height: 50vh;
         background-color: white;
         z-index: 99;
         left: 999px;
-        padding: 0px 75px;
+        padding: 0px 179px;
         box-shadow: 1px 1px 58px grey;
-        margin-right: 10px;
+        border-radius: 12px;
         transition: 0.5s ease-in-out;
     }
     .head nav.active{
-        left:26px;
+        left:73px;
     }
     .head nav ul {
         flex-direction: row;
@@ -242,63 +242,85 @@ img.card-img-top {
     }
     .head nav ul li {
         display: block;
-        padding: 6px 0px;
+        padding: 17px 0px;
     }
     .head nav ul li a {
         color: #302f2fe0;
         font-weight: bold;
+        font-size: 24px;
     }
     .head button{
         display: none;
     }
     .logo img {
         vertical-align: middle;
-        width: 90%;
-        margin-left: -15px;
+        width: 100%;
     }
     .banner-wrp{
     flex-direction: column-reverse;
 }
 .page-content {
-    padding: 42px 15px;
+    padding: 42px 84px;
     text-align: center;
     width: 100%;
 }
 .page-content h2 {
-    font-size: 26px;
+    font-size: 53px;
+    font-weight: 400;
 }   
 .page-content p {
-    margin-bottom: 2rem;
-    font-size: 12px;
+    margin-bottom: 3rem;
+    font-size: 26px;
     color: grey;
+    margin-top: 2rem;
 }
 .choose-bank-head {
     width: 100%;
-    padding: 0px 22px;
-    margin: 181px 0px 74px 0px;
+    padding: 20px 30px;
+    margin: 0px auto;
     text-align: CENTER;
+}
+button {
+    font-size: 23px;
+    width: 12em;
+    height: 3em;
 }
 .why-choose-bank-wrp {
     width: 100%;
     text-align: center;
 }
 .manage-row-content {
-    padding: 0px 7px;
+    padding: 51px 14px;
     width: 100%;
+}
+.choose-bank-head p {
+    font-size: 26px;
+    margin-top: 33px;
+    color: grey;
+}
+.manage-row-content h2 {
+    margin: 25px 0px;
+    font-size: 43px;
+}
+.manage-row-content p {
+    line-height: normal;
+    font-size: 24px;
 }
 .why-choose-bank {
     padding: 40px 0px;
+    margin-top: 50px;
 }
-.manage-row-content h2 {
-    margin: 19px 0px;
+.choose-bank-head h2 {
+    font-size: 53px;
 }
 .card {
-    margin: 10px 0px;
+    margin: 37px 0px;
     border: none;
 }
 .latest-article h2 {
     margin-bottom: 25px;
     text-align: center;
+    font-size: 43px;
 }
 .footer-logo nav {
     margin-top: 22px;
@@ -317,7 +339,7 @@ img.card-img-top {
     padding: 0px 0px;
 }
 .col-lg-3.manage-footer-row p {
-       font-size: 14px;
+       font-size: 22px;
 }
 .menu-btn {
     width: 20px;
@@ -326,7 +348,7 @@ img.card-img-top {
   .i {
     width: 27px;
     height: 3px;
-    background: grey;
+    background: black;
     margin-top: 13px;
     position: relative;
   }
@@ -335,7 +357,7 @@ img.card-img-top {
     position: absolute;
     width: 27px;
     height: 3px;
-    background: grey;
+    background: black;
     top: 5px;
   }
   .i::before {
@@ -343,7 +365,14 @@ img.card-img-top {
     position: absolute;
     width: 27px;
     height: 2px;
-    background: grey;
+    background: black;
     top: -4px;
   }
+  .footer-logo nav ul li a img {
+    vertical-align: middle;
+    width: 7%;
+}
+.manage-footer-row ul li a {
+       font-size: 24px;
+}
 }
